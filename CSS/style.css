@@ -12,6 +12,9 @@ body {
     justify-content: center;
     font-family: "IBM Plex Sans Arabic", sans-serif;
 }
+a {
+    text-decoration: none;
+}
 .overlay {
     position: fixed;
     width: 100%;
