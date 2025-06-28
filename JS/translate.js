@@ -1,14 +1,16 @@
 const translations = {
     ar: {
-        pageTitle: "الميزان العقاري",
-        title: "الميزان العقاري",
-        description: "منصة 'الميزان العقاري' تمنحك تقديرًا منصفًا لسعر الإيجار استنادًا إلى مواصفات العقار وموقعه، ليساعدك على الوصول إلى سعر عادل ومناسب للطرفين بسهولة وسرعة.",
+        pageTitle: "سودارينت",
+        changeLanguge: "Change Languge",
+        title: "سودارينت",
+        description: "منصة 'سودارينت' تمنحك تقديرًا منصفًا لسعر الإيجار استنادًا إلى مواصفات العقار وموقعه، ليساعدك على الوصول إلى سعر عادل ومناسب للطرفين بسهولة وسرعة.",
         nextBtn: "ابدأ الحساب"
     },
     en: {
-        pageTitle: "Real Estate Scale",
-        title: "Real Estate Scale",
-        description: "The Mizan Real Estate platform provides you with a fair estimate of the rental price based on the property's specifications and location, helping you reach a fair and mutually acceptable price easily and quickly.",
+        pageTitle: "Sudarent",
+        changeLanguge: "تغير اللغة",
+        title: "Sudarent",
+        description: "Sudarent gives a fair rental estimate based on property details and location, helping you agree on a price quickly.",
         nextBtn: "Start Calculation"
     }
 };
