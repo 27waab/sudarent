@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
     font-family: "IBM Plex Sans Arabic", sans-serif;
 }
 a {
@@ -25,4 +27,8 @@ a {
 }
 .back:hover {
     background-color: #eee;
+}
+.content > div:not(:last-child) {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
 }
