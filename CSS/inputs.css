@@ -32,3 +32,16 @@ a {
     padding-bottom: 30px;
     border-bottom: 1px solid #ddd;
 }
+.sendDataBtn{
+    background-color: #000;
+    width: 200px;
+    height: 40px;
+    border-radius: 99999999px;
+    border: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    margin-top: 20px;
+    font-weight: bold;
+}
