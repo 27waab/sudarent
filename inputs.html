@@ -40,13 +40,13 @@
                     <div>
                         <div class="input-group mb-3 mt-3">
                             <span class="input-group-text" data-i18n="room">عدد الغرف</span>
-                            <input type="number" class="form-control room" />
+                            <input type="number" class="form-control" id="room" />
                             <span class="input-group-text" data-i18n="bathroom">عدد الحمامات</span>
-                            <input type="number" class="form-control bathroom" />
+                            <input type="number" class="form-control" id="bathroom" />
                         </div>
                         <div class="input-group mb-3 mt-3">
                             <span class="input-group-text" data-i18n="ice">عدد المكيفات</span>
-                            <input type="number" class="form-control ice" />
+                            <input type="number" class="form-control" id="ice" />
                         </div>
                     </div>
                 </div>
@@ -108,15 +108,17 @@
                             <label class="form-check-label" for="school" data-i18n="school">مدارس قريبة</label>
                         </div>
                         <div class="form-check me-2 checkbox">
-                            <input class="form-check-input" type="checkbox" id="market" checked />
+                            <input class="form-check-input" type="checkbox" id="market" />
                             <label class="form-check-label" for="market" data-i18n="market">أسواق أو مراكز</label>
                         </div>
                         <div class="form-check me-2 checkbox">
-                            <input class="form-check-input" type="checkbox" id="bas" checked>
+                            <input class="form-check-input" type="checkbox" id="bas" />
                             <label class="form-check-label" for="bas" data-i18n="bas">طريق مواصلات</label>
                         </div>
                     </div>
                 </div>
+                </div>
+                <button data-i18n="sendData" class="sendDataBtn">إحسب الأن</button>
             </div>
         </div>
         <!-- Bootstrap Js File & Js File -->
