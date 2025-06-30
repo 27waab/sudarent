@@ -27,6 +27,7 @@ const translations = {
         school: "مدارس قريبة",
         market: "أسواق أو مراكز",
         bas: "طريق مواصلات",
+        sendData: "إحسب الأن",
     },
     en: {
         pageTitle: "Sudarent",
@@ -56,5 +57,6 @@ const translations = {
         school: "Nearby schools",
         market: "Markets or Mall",
         bas: "Transportation route",
+        sendData: "Count Now",
     }
 };
