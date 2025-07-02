@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-const space = document.getElementById("space"), balcony = document.getElementById("balcony"), courtyard = document.getElementById("courtyard");
+const space = document.getElementById("space"), balcony = document.getElementById("balcony"), courtyard = document.getElementById("courtyard"), furnished = document.getElementById("furnished");
 const room = document.getElementById("room"), bathroom = document.getElementById("bathroom"), ice = document.getElementById("ice");
 const water = document.getElementById("water"), electricity = document.getElementById("electricity");
 const inputGroupSelectClean = document.getElementById("inputGroupSelectClean");
@@ -35,6 +35,7 @@ const getData = () => {
         theSpace: space.value,
         theBalcony: balcony.checked,
         theCourtyard: courtyard.checked,
+        theFurnished: furnished.checked,
         theRoom: room.value,
         theBathroom: bathroom.value,
         theIce: ice.value,
@@ -56,6 +57,7 @@ const getData = () => {
             space: inputs.theSpace,
             balcony: inputs.theBalcony,
             courtyard: inputs.theCourtyard,
+            furnished: inputs.theFurnished,
             room: inputs.theRoom,
             bathroom: inputs.theBathroom,
             ice: inputs.theIce,
@@ -71,6 +73,7 @@ const getData = () => {
         inputs.theRoom = "";
         inputs.theBathroom = "";
         inputs.theIce = "";
+        document.location = "..//result.html";
     }
 }
 
