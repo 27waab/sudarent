@@ -76,4 +76,33 @@ const getData = () => {
     }
 }
 
-sendData.addEventListener("click", getData);
+const overlay = document.querySelector(".overlay");
+const card = document.querySelector(".alirtCard");
+const closeBtn = document.querySelector(".alirtCard button");
+
+const openCard = () => {
+    overlay.classList.add("open");
+    card.classList.add("open");
+}
+
+sendData.addEventListener("click", function (e) {
+    const spaceValue = space.value.trim();
+    const roomValue = room.value.trim();
+    const bathroomValue = bathroom.value.trim();
+    const iceValue = ice.value.trim();
+
+    if (spaceValue === "" || roomValue === "" || bathroomValue === "" || iceValue === "") {
+        e.preventDefault();
+        openCard();
+        closeBtn.onclick = () => {
+            overlay.classList.remove("open");
+            card.classList.remove("open");
+        }
+        overlay.onclick = () => {
+            overlay.classList.remove("open");
+            card.classList.remove("open");
+        }
+    } else {
+        getData();
+    }
+});
