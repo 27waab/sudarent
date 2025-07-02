@@ -31,6 +31,8 @@ const translations = {
         furnished: "مفروش؟",
         titleResult: "تقدير سعر الإيجار",
         sdg: "جنيه سوداني",
+        alirtText: "يرجى تعبئة جميع الحقول المطلوبة قبل المتابعة",
+        alirtBtn: "حسناً"
     },
     en: {
         pageTitle: "Sudarent",
@@ -64,5 +66,7 @@ const translations = {
         furnished: "Furnished?",
         titleResult: "Rental price estimate",
         sdg: "Sudanese Pound",
+        alirtText: "Please fill in all required fields before proceeding",
+        alirtBtn: "OK!",
     }
 };
