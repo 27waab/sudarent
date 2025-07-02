@@ -73,7 +73,6 @@ const getData = () => {
         inputs.theRoom = "";
         inputs.theBathroom = "";
         inputs.theIce = "";
-        document.location = "https://27waab.github.io/sudarent/result.html";
     }
 }
 
