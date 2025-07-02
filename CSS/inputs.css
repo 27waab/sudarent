@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0 0 0 / 75%);
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: 300ms;
+}
+.overlay.open {
+    opacity: 1;
+    pointer-events: all;
+}
+.alirtCard {
+    width: 330px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    z-index: 2000;
+    position: fixed;
+    top: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    opacity: 0;
+    transition: 300ms;
+}
+.alirtCard.open {
+    top: 20px;
+    opacity: 1;
+}
+.alirtCard p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.alirtCard button {
+    width: 100px;
+    padding: 5px;
+    border-radius: 9999999px;
+    border: none;
+    outline: none;
+    background-color: #ff2525;
+    color: #fff;
+    font-weight: bold;
+}
+.back {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #000;
+    cursor: pointer;
+    transition: 300ms;
+    margin-bottom: 20px;
+}
+.back:hover {
+    background-color: #eee;
+}
+.content > div {
+    padding: 10px 20px 20px; 
+    border: 1px solid #eee;
+    border-radius: 15px;
+}
+.sendDataBtn button {
+    background-color: #000;
+    width: 200px;
+    height: 40px;
+    border-radius: 99999999px;
+    border: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    margin-top: 20px;
+    font-weight: bold;
+}
