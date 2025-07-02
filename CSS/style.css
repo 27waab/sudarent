@@ -22,8 +22,8 @@ a {
     top: 0;
     left: 0;
     background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(120px);
-    -webkit-backdrop-filter: blur(120px);
+    backdrop-filter: blur(150px);
+    -webkit-backdrop-filter: blur(150px);
     z-index: 1;
 }
 .colorBox {
@@ -42,12 +42,12 @@ a {
     border-radius: 50%;
 }
 .colorBox .first {
-    background-color: #3A86FF;
+    background-color: #7cb518;
     top: -300px;
     right: -150px;
 }
 .colorBox .sceend {
-    background-color: #8338EC;
+    background-color: #f3de2c;
     bottom: -300px;
     left: -150px;
 }
